@@ -2,8 +2,8 @@
 
 about :
 
-  name : "wLoggerToBrowser"
-  description : ""
+  name : "wLoggerFromAsciiToCss"
+  description : "Class to transform ansi styled input into css styled output supported by the browser's console."
   version : "0.4.75"
   enabled : 1
   interpreters :
@@ -21,8 +21,8 @@ execution :
 
 path :
 
-  repository : git+https://github.com/Wandalen/wLoggerToBrowser.git
-  bugs : https://github.com/Wandalen/wLoggerToBrowser/issues
+  repository : git+https://github.com/Wandalen/wLoggerFromAsciiToCss.git
+  bugs : https://github.com/Wandalen/wLoggerFromAsciiToCss/issues
 
 step :
 

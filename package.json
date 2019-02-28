@@ -2,7 +2,7 @@
   "name": "wloggerfromasciitocss",
   "version": "0.4.76",
   "engine": "node >= 6.0.0",
-  "description": "",
+  "description": "Class to transform ansi styled input into css styled output supported by the browser's console.",
   "author": "Kostiantyn Wandalen <wanalen@willbe.so>",
   "contributors": [
     {
@@ -33,11 +33,11 @@
     "url": "https://github.com/Wandalen/wLoggerFromAsciiToCss.s/issues"
   },
   "dependencies": {
-    "ansicolor": "",
-    "has-ansi": "^3.0.0",
     "wFiles": "",
     "wLogger": "",
-    "wTools": ""
+    "wTools": "",
+    "ansicolor": "",
+    "has-ansi": ""
   },
   "devDependencies": {
     "wTesting": ""

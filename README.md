@@ -1,5 +1,5 @@
 
-# wLoggerToFile [![Build Status](https://travis-ci.org/Wandalen/wLoggerFromAsciiToCss.svg?branch=master)](https://travis-ci.org/Wandalen/wLoggerFromAsciiToCss)
+# wLoggerFromAsciiToCss [![Build Status](https://travis-ci.org/Wandalen/wLoggerFromAsciiToCss.svg?branch=master)](https://travis-ci.org/Wandalen/wLoggerFromAsciiToCss)
 
 Class to transform ansi styled input into css styled output supported by the browser's console.
 
