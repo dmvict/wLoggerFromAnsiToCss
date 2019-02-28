@@ -14,3 +14,4 @@ var l = new _.LoggerFromAsciiToCss({ output : console });
 l.log( _.color.strFormatForeground( 'text', 'red' ) );
 // %ctext color:rgba(255,51,0,1);
 ```
+
