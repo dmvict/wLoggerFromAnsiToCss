@@ -1,6 +1,6 @@
 {
   "name": "wloggerfromasciitocss",
-  "version": "0.4.76",
+  "version": "0.4.77",
   "engine": "node >= 6.0.0",
   "description": "Class to transform ansi styled input into css styled output supported by the browser's console.",
   "author": "Kostiantyn Wandalen <wanalen@willbe.so>",
