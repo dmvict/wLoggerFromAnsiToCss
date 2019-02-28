@@ -5,7 +5,7 @@
 if( typeof module !== 'undefined' )
 {
 
-  require( '../printer/top/FromAsciiToCss.s' );
+  require( '../printer/top/FromAnsiToCss.s' );
 
   var _ = wTools;
 
@@ -25,7 +25,7 @@ function trivial( test )
 
   var got;
   let onTransformEnd = function( o ){ got = o };
-  let logger = new _.LoggerFromAsciiToCss({ output : null, onTransformEnd : onTransformEnd });
+  let logger = new _.LoggerFromAnsiToCss({ output : null, onTransformEnd : onTransformEnd });
 
   test.case = 'simple text without styles';
   var src = 'text'

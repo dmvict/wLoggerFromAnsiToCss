@@ -1,16 +1,15 @@
-(function _FromAsciiToCss_s_() {
+(function _FromAnsiToCss_s_() {
 
 'use strict';
 
 /**
-  @module Tools/base/printer/FromAsciiToCss -
+ * Class to transform ANSI-styled input into CSS-styled output supported by the browser's console.
+  @module Tools/base/printer/FromAnsiToCss
 */
 
 /**
- * @file printer/FromAsciiToCss.s
+ * @file printer/FromAnsiToCss.s
  */
-
-// require
 
 if( typeof module !== 'undefined' )
 {
@@ -29,12 +28,12 @@ if( typeof module !== 'undefined' )
 var _global = _global_;
 var _ = _global_.wTools;
 var Parent = _.PrinterTop;
-var Self = function wLoggerFromAsciiToCss( o )
+var Self = function wLoggerFromAnsiToCss( o )
 {
   return _.instanceConstructor( Self, this, arguments );
 }
 
-Self.shortName = 'LoggerFromAsciiToCss';
+Self.shortName = 'LoggerFromAnsiToCss';
 
 //
 
@@ -154,9 +153,9 @@ _global_[ Self.name ] = _[ Self.shortName ] = Self;
 // export
 // --
 
-if( typeof module !== 'undefined' )
-if( _global_.WTOOLS_PRIVATE )
-{ /* delete require.cache[ module.id ]; */ }
+// if( typeof module !== 'undefined' )
+// if( _global_.WTOOLS_PRIVATE )
+// { /* delete require.cache[ module.id ]; */ }
 
 if( typeof module !== 'undefined' && module !== null )
 module[ 'exports' ] = Self;

@@ -1,8 +1,8 @@
 {
-  "name": "wloggerfromasciitocss",
+  "name": "wloggerfromansitocss",
   "version": "0.4.77",
   "engine": "node >= 6.0.0",
-  "description": "Class to transform ansi styled input into css styled output supported by the browser's console.",
+  "description": "Class to transform ANSI-styled input into CSS-styled output supported by the browser's console.",
   "author": "Kostiantyn Wandalen <wanalen@willbe.so>",
   "contributors": [
     {
@@ -15,7 +15,7 @@
     }
   ],
   "license": "MIT",
-  "main": "proto/dwtools/abase/printer/top/FromAsciiToCss.s",
+  "main": "proto/dwtools/abase/printer/top/FromAnsiToCss.s",
   "files": [
     "proto/dwtools/abase/printer",
     "proto/dwtools/Tools.s",
@@ -27,10 +27,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Wandalen/wLoggerFromAsciiToCss.s.git"
+    "url": "https://github.com/Wandalen/wLoggerFromAnsiToCss.s.git"
   },
   "bugs": {
-    "url": "https://github.com/Wandalen/wLoggerFromAsciiToCss.s/issues"
+    "url": "https://github.com/Wandalen/wLoggerFromAnsiToCss.s/issues"
   },
   "dependencies": {
     "wFiles": "",
