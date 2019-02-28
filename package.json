@@ -1,0 +1,58 @@
+{
+  "name": "wloggerfromasciitocss",
+  "version": "0.4.76",
+  "engine": "node >= 6.0.0",
+  "description": "",
+  "author": "Kostiantyn Wandalen <wanalen@willbe.so>",
+  "contributors": [
+    {
+      "name": "Kostiantyn Wandalen",
+      "email": "wanalen@willbe.so"
+    },
+    {
+      "name": "Volodymyr M.",
+      "email": "volodymyr.migdal@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "main": "proto/dwtools/abase/printer/top/FromAsciiToCss.s",
+  "files": [
+    "proto/dwtools/abase/printer",
+    "proto/dwtools/Tools.s",
+    "production"
+  ],
+  "scripts": {
+    "test": "wtest staging",
+    "docgen": "wdocgen proto"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wandalen/wLoggerFromAsciiToCss.s.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wandalen/wLoggerFromAsciiToCss.s/issues"
+  },
+  "dependencies": {
+    "ansicolor": "",
+    "has-ansi": "^3.0.0",
+    "wFiles": "",
+    "wLogger": "",
+    "wTools": ""
+  },
+  "devDependencies": {
+    "wTesting": ""
+  },
+  "keywords": [
+    "wTools",
+    "logger",
+    "logging",
+    "log",
+    "colorful log",
+    "ansi styles",
+    "ansi colors",
+    "ansi colors in browser",
+    "multilevel log",
+    "colors",
+    "color"
+  ]
+}
