@@ -1,11 +1,11 @@
-( function _ToFile_test_s_( ) {
+( function _FromAnsiToCss_test_s_( ) {
 
 'use strict';
 
 if( typeof module !== 'undefined' )
 {
 
-  require( '../printer/top/FromAnsiToCss.s' );
+  require( '../../l9/printer/top/FromAnsiToCss.s' );
 
   var _ = wTools;
 
