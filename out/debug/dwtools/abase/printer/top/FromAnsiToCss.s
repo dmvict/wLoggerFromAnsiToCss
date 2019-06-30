@@ -21,6 +21,9 @@ if( typeof module !== 'undefined' )
 
   var AnsiColor = require( 'ansicolor' );
   var HasAnsi = require( 'has-ansi' );
+
+  /* qqq : removed this dependencies */
+
 }
 
 //
@@ -126,15 +129,15 @@ var Associates =
 var Proto =
 {
 
-  init : init,
+  /*ttt*/init,
 
-  _transformEnd : _transformEnd,
+  /*ttt*/_transformEnd,
 
   // relations
 
-  Composes : Composes,
-  Aggregates : Aggregates,
-  Associates : Associates,
+  /*ttt*/Composes,
+  /*ttt*/Aggregates,
+  /*ttt*/Associates,
 
 }
 
