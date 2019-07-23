@@ -129,15 +129,15 @@ var Associates =
 var Proto =
 {
 
-  /*ttt*/init,
+  init,
 
-  /*ttt*/_transformEnd,
+  _transformEnd,
 
   // relations
 
-  /*ttt*/Composes,
-  /*ttt*/Aggregates,
-  /*ttt*/Associates,
+  Composes,
+  Aggregates,
+  Associates,
 
 }
 
@@ -155,10 +155,6 @@ _global_[ Self.name ] = _[ Self.shortName ] = Self;
 // --
 // export
 // --
-
-// if( typeof module !== 'undefined' )
-// if( _global_.WTOOLS_PRIVATE )
-// { /* delete require.cache[ module.id ]; */ }
 
 if( typeof module !== 'undefined' && module !== null )
 module[ 'exports' ] = Self;

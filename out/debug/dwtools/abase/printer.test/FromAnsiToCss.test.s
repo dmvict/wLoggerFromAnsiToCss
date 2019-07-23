@@ -25,7 +25,7 @@ function trivial( test )
 
   var got;
   let onTransformEnd = function( o ){ got = o };
-  let logger = new _.LoggerFromAnsiToCss({ output : null, /*ttt*/onTransformEnd });
+  let logger = new _.LoggerFromAnsiToCss({ output : null, onTransformEnd });
 
   test.case = 'simple text without styles';
   var src = 'text'

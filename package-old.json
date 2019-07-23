@@ -1,0 +1,58 @@
+{
+  "name": "wloggerfromansitocss",
+  "version": "0.4.92",
+  "engine": "node >= 6.0.0",
+  "description": "Class to transform ANSI-styled input into CSS-styled output supported by the browser's console.",
+  "author": "Kostiantyn Wandalen <wanalen@willbe.so>",
+  "contributors": [
+    {
+      "name": "Kostiantyn Wandalen",
+      "email": "wanalen@willbe.so"
+    },
+    {
+      "name": "Volodymyr M.",
+      "email": "volodymyr.migdal@gmail.com"
+    }
+  ],
+  "license": "MIT",
+  "main": "proto/dwtools/abase/printer/top/FromAnsiToCss.s",
+  "files": [
+    "proto/dwtools/abase/printer",
+    "proto/dwtools/Tools.s",
+    "production"
+  ],
+  "scripts": {
+    "test": "wtest proto",
+    "docgen": "wdocgen proto"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Wandalen/wLoggerFromAnsiToCss.s.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Wandalen/wLoggerFromAnsiToCss.s/issues"
+  },
+  "dependencies": {
+    "wFiles": "",
+    "wLogger": "",
+    "wTools": "",
+    "ansicolor": "",
+    "has-ansi": ""
+  },
+  "devDependencies": {
+    "wTesting": ""
+  },
+  "keywords": [
+    "wTools",
+    "logger",
+    "logging",
+    "log",
+    "colorful log",
+    "ansi styles",
+    "ansi colors",
+    "ansi colors in browser",
+    "multilevel log",
+    "colors",
+    "color"
+  ]
+}
